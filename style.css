@@ -1,0 +1,50 @@
+.container{
+    position: relative;
+    text-align: center;
+    width: 70%;
+    margin: 100px auto;
+    height: 100px;
+}
+
+#knopka{
+    margin: 10px;
+    padding: 20px;
+    color: brown;
+    background: coral;
+    font-size: 20px;
+}
+
+span{
+    font-size: 40px;
+}
+
+.privet{
+    position: relative;
+    right: 800px;
+    transition: right 3s;
+}
+
+.name{
+    position: relative;
+    left: 800px;
+    transition: left 3s 1s;
+}
+
+.privet.mesto{
+    right: 0;
+}
+
+.name.mesto{
+    left: 0;
+}
+
+.del{
+    opacity: 0;
+    visibility: hidden;
+}
+
+input{
+    padding: 10px;
+    font-size: 20px;
+}
+
